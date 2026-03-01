@@ -46,3 +46,16 @@ build/libs/tabout-plugin-1.0.0.jar
 De plugin gebruikt standaard **Tab**. Wil je een andere toets?
 
 Ga naar **Settings** → **Keymap** → zoek op "Tabout" → pas de snelkoppeling aan.
+
+## Nu de ai slop uitgepraat is.
+
+Ik ( claude.ai ) heb dit vooral gemaakt, omdat ik niet kan leven zonder enige vorm van tabout.
+
+## Als je alleen op zoek bent naar de link naar de plugin.
+
+```
+link komt soon
+
+```
+
+## Anyways god bless claude.
