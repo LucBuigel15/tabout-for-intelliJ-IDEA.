@@ -1,61 +1,51 @@
-# Tabout Plugin for IntelliJ IDEA
+# Jumpout Plugin for IntelliJ IDEA
+Jump out of brackets, quotes, and other closing characters with **Tab** — just like the VS Code Tabout extension.
 
-Spring met **Tab** uit haakjes, quotes en andere sluitende tekens — net als de VS Code Tabout extensie.
+## What does it do?
+When your cursor is right before a closing character, Tab jumps over it:
+- `)` `}` `]` `"` `'` `` ` `` `>`
 
-## Wat doet het?
+If there's no closing character, Tab works normally.
 
-Als je cursor vlak voor een sluitend teken staat, springt Tab erover heen:
-- `)` `)` `}` `]` `"` `'` `` ` `` `>`
+## Building
+### Requirements
+- JDK 17 or higher → https://adoptium.net/
+- Gradle (automatically downloaded via the wrapper)
 
-Als er geen sluitend teken staat, werkt Tab gewoon normaal.
-
-## Bouwen
-
-### Vereisten
-- JDK 17 of hoger → https://adoptium.net/
-- Gradle (wordt automatisch gedownload via de wrapper)
-
-### Stappen
-
+### Steps
 ```bash
-# 1. Ga naar de projectmap
-cd tabout-plugin
+# 1. Navigate to the project folder
+cd jumpout
 
-# 2. Bouw de plugin
+# 2. Build the plugin
 ./gradlew buildPlugin
 
-# Op Windows:
+# On Windows:
 gradlew.bat buildPlugin
 ```
 
-De `.jar` staat daarna in:
+The `.jar` will be located at:
 ```
-build/libs/tabout-plugin-1.0.0.jar
+build/libs/jumpout-1.0.0.jar
 ```
 
-## Installeren in IntelliJ IDEA
-
+## Installing in IntelliJ IDEA
 1. Open IntelliJ IDEA
-2. Ga naar **Settings** → **Plugins**
-3. Klik op het tandwiel-icoontje ⚙️ → **Install Plugin from Disk...**
-4. Selecteer de `.jar` uit `build/libs/`
-5. Herstart IntelliJ
+2. Go to **Settings** → **Plugins**
+3. Click the gear icon ⚙️ → **Install Plugin from Disk...**
+4. Select the `.jar` from `build/libs/`
+5. Restart IntelliJ
 
-## Keybinding aanpassen
+## Changing the keybinding
+The plugin uses **Tab** by default. Want a different key?
 
-De plugin gebruikt standaard **Tab**. Wil je een andere toets?
+Go to **Settings** → **Keymap** → search for "Jumpout" → change the shortcut.
 
-Ga naar **Settings** → **Keymap** → zoek op "Tabout" → pas de snelkoppeling aan.
+## Now that the ai finished talking.
+I (claude.ai) mostly made this because I cannot live without some form of tabout.
 
-## Nu de ai slop uitgepraat is.
-
-Ik ( claude.ai ) heb dit vooral gemaakt, omdat ik niet kan leven zonder enige vorm van tabout.
-
-## Als je alleen op zoek bent naar de link naar de plugin.
-
+## If you're just looking for the plugin link.
 ```
-link komt soon
-
+link coming soon
 ```
 
-## Anyways god bless claude.
