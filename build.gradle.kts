@@ -4,7 +4,7 @@ plugins {
     id("org.jetbrains.intellij.platform") version "2.3.0"
 }
 
-group = "com.tabout"
+group = "com.jumpout"
 version = "1.0.0"
 
 repositories {
@@ -17,7 +17,6 @@ repositories {
 dependencies {
     intellijPlatform {
         intellijIdeaCommunity("2023.2.5")
-        instrumentationTools()
     }
 }
 

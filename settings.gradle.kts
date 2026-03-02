@@ -1,1 +1,1 @@
-rootProject.name = "tabout-plugin"
+rootProject.name = "jumpout"
